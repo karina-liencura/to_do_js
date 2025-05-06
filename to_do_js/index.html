@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ess">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/style.css">
+    <title>To do</title>
+</head>
+<body>
+
+  <div class="todo-container">
+    <h2>Todo List</h2>
+    <div>
+      <label for="tarea">Nueva tarea</label><br>
+      <input type="text" id="tarea" placeholder="Escribe una tarea...">
+      <button onclick="agregarTarea()">Agregar</button>
+    </div>
+    <div class="info">
+      Total: <span id="total">0</span><br>
+      Realizadas: <span id="realizadas">0</span>
+    </div>
+    <table>
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Tarea</th>
+          <th class="checkbox">✔</th>
+          <th class="checkbox">✖</th>
+        </tr>
+      </thead>
+      <tbody id="listaTareas">
+        <!-- Las areas se renderizan aquí -->
+      </tbody>
+    </table>
+  </div>
+
+
+
+      <script src="./js/script.js"></script>
+
+    
+    
+</body>
+</html>

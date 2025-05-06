@@ -1,0 +1,81 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.todo-container {
+  width: 480px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h2 {
+  margin-top: 0;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 10px;
+}
+
+input[type="text"] {
+  width: 65%;
+  padding: 8px;
+}
+
+button {
+  background-color: #117a37;
+  color: white;
+  border: none;
+  padding: 9px 15px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.info {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+table {
+  width: 100%;
+  margin-top: 10px;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  border-bottom: 2px solid #ccc;
+}
+
+.realizada {
+  text-decoration: line-through;
+  color: grey;
+}
+
+.btn-eliminar {
+  color: red;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.checkbox {
+  text-align: center;
+}
+
+.tarea-row:hover {
+  background-color: #f0f0f0;
+}
+
+.realizada {
+  text-decoration: line-through;
+  color: #0ab90d;
+  font-style: italic;
+  font-weight: 300;
+}
